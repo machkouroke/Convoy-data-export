@@ -3,8 +3,7 @@ from data_export import export_sql, export_json, export_xml
 from csvCorrector import CsvCorrector
 
 if __name__ == "__main__":
-    print('Input file name')
-    file_name: str = input()
+    file_name: str = input('Input file name')
     base_path, extension = os.path.splitext(file_name)
     if extension != ".s3db":
         if not file_name.endswith("[CHECKED].csv"):
