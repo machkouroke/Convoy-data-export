@@ -29,4 +29,5 @@ The program supports the following file types:
 - `CSV`
 - `S3DB`
 - `XLSX`  
+
 For `CSV` and `XLSX` files, the program will remove all non digit characters from the file name.
